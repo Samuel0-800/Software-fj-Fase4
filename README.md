@@ -1,6 +1,6 @@
 # Software FJ - Gestion de clientes, servicios y reservas
 
-Fase 4 del curso Programacion (213023), UNAD.
+Fase 4 del curso Programacion
 
 Sistema en Python orientado a objetos, sin base de datos. Los clientes, servicios y reservas se guardan en listas y los eventos y errores quedan en el archivo `registro_eventos.log`.
 
@@ -27,4 +27,4 @@ El programa corre 16 operaciones seguidas, unas correctas y otras con errores a 
 
 ## Integrantes
 
-- NOMBRE COMPLETO
+- Samuel Perez 
