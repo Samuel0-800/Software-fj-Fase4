@@ -1,0 +1,29 @@
+[2026-11-22 21:40:51] [INFO] ---- Inicio de la simulacion ----
+[2026-11-22 21:40:51] [INFO] Cliente registrado: Cliente 1: Ana Torres (ana.torres@gmail.com)
+[2026-11-22 21:40:51] [ERROR] Registro de cliente fallido: Correo invalido: pedro.ruizgmail.com
+[2026-11-22 21:40:51] [ERROR] Registro de cliente fallido: Documento invalido: 10AB345
+[2026-11-22 21:40:51] [INFO] Cliente registrado: Cliente 2: Carlos Mejia (carlos.mejia@outlook.com)
+[2026-11-22 21:40:51] [INFO] Servicio creado: Sala 'Sala de juntas' para 12 personas, $50000 la hora
+[2026-11-22 21:40:51] [INFO] Servicio creado: Alquiler de 3 x 'Portatil', $15000 la hora cada uno
+[2026-11-22 21:40:51] [INFO] Servicio creado: Asesoria 'Ciberseguridad' nivel avanzado, $80000 la hora
+[2026-11-22 21:40:51] [ERROR] No se creo el servicio: Precio por hora invalido: -20000
+[2026-11-22 21:40:51] [ERROR] No se creo el servicio: Nivel de asesoria no existe: experto
+[2026-11-22 21:40:51] [ERROR] No se creo el servicio: Cantidad de equipos invalida: 15
+[2026-11-22 21:40:51] [INFO] Reserva creada: Reserva 6: Ana Torres - Sala de juntas (3 h) estado pendiente
+[2026-11-22 21:40:51] [INFO] Reserva 6 confirmada
+[2026-11-22 21:40:51] [INFO] Reserva 6 procesada por $178500.0
+[2026-11-22 21:40:51] [INFO] Intento de procesar la reserva 6 terminado
+[2026-11-22 21:40:51] [ERROR] Reserva fallida: No se pudo crear la reserva: horas no validas | causa: Horas fuera de rango (1 a 4): 6
+[2026-11-22 21:40:51] [ERROR] Reserva fallida: No se pudo crear la reserva: horas no validas | causa: Las horas deben ser un numero, llego: tres
+[2026-11-22 21:40:51] [ERROR] Reserva fallida: La reserva necesita un cliente valido
+[2026-11-22 21:40:51] [INFO] Reserva creada: Reserva 7: Carlos Mejia - Portatil (5 h) estado pendiente
+[2026-11-22 21:40:51] [ERROR] Fallo en la operacion 11: El servicio 'Portatil' no esta disponible
+[2026-11-22 21:40:51] [INFO] Reserva creada: Reserva 8: Carlos Mejia - Ciberseguridad (2 h) estado pendiente
+[2026-11-22 21:40:51] [INFO] Reserva 8 confirmada
+[2026-11-22 21:40:51] [INFO] Intento de procesar la reserva 8 terminado
+[2026-11-22 21:40:51] [ERROR] Fallo en la operacion 12: No se pudo procesar la reserva 8 | causa: Descuento no valido: 0.8
+[2026-11-22 21:40:51] [INFO] Reserva 8 procesada por $257040.0
+[2026-11-22 21:40:51] [INFO] Intento de procesar la reserva 8 terminado
+[2026-11-22 21:40:51] [ERROR] Fallo en la operacion 14: No se puede cancelar una reserva procesada
+[2026-11-22 21:40:51] [INFO] Reserva 7 cancelada
+[2026-11-22 21:40:51] [INFO] ---- Fin de la simulacion ----
